@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Garicore01', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -20,12 +20,8 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], 
         },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,50 +29,49 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'PlayBeat',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'PlayBeat is a colaborative project that has a music player app that allows you to play music from your device. It is built with Express.js, Astro and PostgreSQL. ',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          //link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'OrderBD',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'OrderBd is a small project that allows you to manage orders in a small business. It is built with Ruby on Rails and PostgreSQL. ',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          //link: 'https://example.com',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Gari Arellano',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'gari-arellano',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'gari_core01', // it's private
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'gariiarellano01@gmail.com',
   },
   resume: {
     fileUrl:
@@ -84,56 +79,112 @@ const CONFIG = {
   },
   skills: [
     'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
+    'Oracle',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Ruby',
+    'Python',
+    'Kubernetes',
+    'KVM',
+    'VMWare',
+    'Vagrant',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Congelados de Navarra',
+      position: 'Information Systems Technician',
+      from: 'April 2021',
+      to: 'September 2021',
+      companyLink: 'https://www.congeladosnavarra.com/es',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Congelados de Navarra',
+      position: 'Information Systems Technician',
+      from: 'July 2022',
+      to: 'September 2022',
+      companyLink: 'https://www.congeladosnavarra.com/es',
+    },
+    {
+      company: 'Congelados de Navarra',
+      position: 'Information Systems Technician',
+      from: 'June 2023',
+      to: 'September 2023',
+      companyLink: 'https://www.congeladosnavarra.com/es',
+    },
+    {
+      company: 'NoLogin',
+      position: 'Junior Threat Intelligence Engineer',
+      from: 'June 2024',
+      to: 'Present',
+      companyLink: 'https://www.nologin.es/es/index',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'B1 - Score 156',
+      body: 'Cambridge University Press & Assessment',
+      year: 'November 2023',
+      link: 'C4942793',
+    },
+    {
+      name: 'Curso de Hacking Tools: Blue TeamCurso de Hacking Tools: Blue Team',
+      body: 'OpenWebinars',
+      year: 'March 2021',
+      link: 'https://openwebinars.net/cert/QDZ7X',
+    },
+    {
+      name: 'Curso de JavaScript para principiantes',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/Jmed0',
+    },
+    {
+      name: 'Curso de Metasploit Framework',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/0202z',
+    },
+    {
+      name: 'Curso de PowerShell para principiantes',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/3p4Xa',
+    },
+    {
+      name: 'Curso de Triage informático',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/85pqO',
+    },
+    {
+      name: 'Curso de analisis de malware',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/Armd7',
+    },
+    {
+      name: 'Curso de Shell en Linux',
+      body: 'OpenWebinars',
+      year: 'March 2020',
+      link: 'https://openwebinars.net/cert/QpRzy',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Zaragoza',
+      degree: 'Computer Science',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'CIP ETI Tudela',
+      degree: 'Technician in Administration of Computer Systems in Network',
+      from: '2019',
+      to: '2021',
     },
   ],
   publications: [
@@ -158,9 +209,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
+    limit: 0, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -232,14 +283,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
   enablePWA: true,
 };
 
