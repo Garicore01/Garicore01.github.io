@@ -57,7 +57,7 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: 'gari_core01', // it's private
+    instagram: 'gari_core01', 
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
