@@ -33,7 +33,7 @@ const CONFIG = {
           description:
             'PlayBeat is a colaborative project that has a music player app that allows you to play music from your device. It is built with Express.js, Astro and PostgreSQL. ',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://drive.google.com/file/d/1tcLmuyhlZme1WBAATKkt0KcrfTAKjSfM/view?usp=drive_link',
           //link: 'https://example.com',
         },
         {
@@ -75,7 +75,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.canva.com/design/DAF0I_gqRjM/G_JaCJaDLlPNFDf407_l9A/view?utm_content=DAF0I_gqRjM&utm_campaign=designshare&utm_medium=link&utm_source=editor', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -187,7 +187,7 @@ const CONFIG = {
       to: '2021',
     },
   ],
-  publications: [
+  publications: [/*
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -206,7 +206,7 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  */],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
