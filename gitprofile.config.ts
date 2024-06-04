@@ -40,8 +40,8 @@ const CONFIG = {
           title: 'OrderBD',
           description:
             'OrderBd is a small project that allows you to manage orders in a small business. It is built with Ruby on Rails and PostgreSQL. ',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          imageUrl: 
+            'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo_negro.svg',
           //link: 'https://example.com',
         },
       ],
