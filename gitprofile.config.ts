@@ -33,7 +33,7 @@ const CONFIG = {
           description:
             'PlayBeat is a colaborative project that has a music player app that allows you to play music from your device. It is built with Express.js, Astro and PostgreSQL. ',
           imageUrl:
-            'https://drive.google.com/file/d/1tcLmuyhlZme1WBAATKkt0KcrfTAKjSfM/view?usp=drive_link',
+            'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo_negro.svg',
           //link: 'https://example.com',
         },
         {
@@ -41,7 +41,7 @@ const CONFIG = {
           description:
             'OrderBd is a small project that allows you to manage orders in a small business. It is built with Ruby on Rails and PostgreSQL. ',
           imageUrl: 
-            'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo_negro.svg',
+            'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo-orderbd.png',
           //link: 'https://example.com',
         },
       ],
@@ -54,6 +54,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'gari-arellano',
+    blogspot: 'https://iso-aso-gari.blogspot.com/',
     mastodon: '',
     researchGate: '',
     facebook: '',
