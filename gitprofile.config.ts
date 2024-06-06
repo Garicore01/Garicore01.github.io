@@ -96,10 +96,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'NoLogin',
+      position: 'Junior Threat Intelligence Engineer',
+      from: 'June 2024',
+      to: 'Present',
+      companyLink: 'https://www.nologin.es/es/index',
+    },
+    {
       company: 'Congelados de Navarra',
       position: 'Information Systems Technician',
-      from: 'April 2021',
-      to: 'September 2021',
+      from: 'June 2023',
+      to: 'September 2023',
       companyLink: 'https://www.congeladosnavarra.com/es',
     },
     {
@@ -112,16 +119,9 @@ const CONFIG = {
     {
       company: 'Congelados de Navarra',
       position: 'Information Systems Technician',
-      from: 'June 2023',
-      to: 'September 2023',
+      from: 'April 2021',
+      to: 'September 2021',
       companyLink: 'https://www.congeladosnavarra.com/es',
-    },
-    {
-      company: 'NoLogin',
-      position: 'Junior Threat Intelligence Engineer',
-      from: 'June 2024',
-      to: 'Present',
-      companyLink: 'https://www.nologin.es/es/index',
     },
   ],
   certifications: [
