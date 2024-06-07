@@ -34,7 +34,7 @@ const CONFIG = {
             'PlayBeat is a colaborative project that has a music player app that allows you to play music from your device. It is built with Express.js, Astro and PostgreSQL. ',
           imageUrl:
             'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo_negro.svg',
-          //link: 'https://example.com',
+          link: 'https://github.com/Garicore01/PlayBeat-Backend',
         },
         {
           title: 'OrderBD',
@@ -42,7 +42,7 @@ const CONFIG = {
             'OrderBd is a small project that allows you to manage orders in a small business. It is built with Ruby on Rails and PostgreSQL. ',
           imageUrl: 
             'https://raw.githubusercontent.com/Garicore01/Garicore01.github.io/main/public/logo-orderbd.png',
-          //link: 'https://example.com',
+          link: 'https://github.com/Garicore01/Order_bd',
         },
       ],
     },
