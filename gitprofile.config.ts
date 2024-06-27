@@ -54,7 +54,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'gari-arellano',
-    blogspot: 'https://iso-aso-gari.blogspot.com/',
+    blogspot: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -70,7 +70,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
+    website: 'https://iso-aso-gari.blogspot.com/',
     phone: '',
     email: 'gariiarellano01@gmail.com',
   },
