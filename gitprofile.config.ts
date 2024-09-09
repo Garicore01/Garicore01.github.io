@@ -99,7 +99,7 @@ const CONFIG = {
       company: 'NoLogin',
       position: 'Junior Threat Intelligence Engineer',
       from: 'June 2024',
-      to: 'Present',
+      to: 'August 2024',
       companyLink: 'https://www.nologin.es/es/index',
     },
     {
