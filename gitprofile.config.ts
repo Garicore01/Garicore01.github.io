@@ -176,6 +176,12 @@ const CONFIG = {
   ],
   educations: [
     {
+      institution: 'Università degli Studi di Torino',
+      degree: 'Computer Science',
+      from: '2024',
+      to: '2025',
+    },
+    {
       institution: 'University of Zaragoza',
       degree: 'Computer Science',
       from: '2021',
