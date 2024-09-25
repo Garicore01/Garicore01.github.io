@@ -82,6 +82,7 @@ const CONFIG = {
     'PHP',
     'JavaScript',
     'Node.js',
+    'Java Spring Boot',
     'MySQL',
     'PostgreSQL',
     'Oracle',
